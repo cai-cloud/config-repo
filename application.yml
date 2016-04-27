@@ -1,3 +1,5 @@
 info:
   description: Cai Cloud Sample 11
   url: https://github.com/cai-cloud/config-repo
+logging:
+  config: classpath:config/log4j2-spring.xml
