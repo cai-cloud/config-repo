@@ -11,7 +11,7 @@ druid:
     driverClassName: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=UTF-8&useSSL=false
     username: root
-    password: ${cipher}67113380127a66aadf80b8f74a585a345b3a10d6e2ae2afa0bbb098f3f263728
+    password: '${cipher}67113380127a66aadf80b8f74a585a345b3a10d6e2ae2afa0bbb098f3f263728'
     #初始化连接数量，最大最小连接数
     initialSize: 5
     maxActive: 10
